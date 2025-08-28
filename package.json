@@ -1,0 +1,44 @@
+{
+  "name": "ecommerce-admin",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@hookform/resolvers": "^5.2.1",
+    "@next-auth/mongodb-adapter": "^1.1.3",
+    "@tanstack/react-query": "^5.80.2",
+    "@tanstack/react-query-next-experimental": "^5.80.2",
+    "@tanstack/react-table": "^8.21.3",
+    "axios": "^1.11.0",
+    "bcryptjs": "^3.0.2",
+    "cloudinary": "^2.7.0",
+    "date-fns": "^4.1.0",
+    "mongodb": "^5.9.2",
+    "mongoose": "^8.18.0",
+    "next": "15.3.3",
+    "next-auth": "^4.24.11",
+    "punycode.js": "^2.3.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-hot-toast": "^2.5.2",
+    "react-icons": "^5.5.0",
+    "react-modal": "^3.16.3",
+    "react-select": "^5.10.1",
+    "recharts": "^2.15.3",
+    "zod": "^3.25.49",
+    "zustand": "^5.0.8"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
+    "eslint": "^9",
+    "eslint-config-next": "15.3.3",
+    "tailwindcss": "^4"
+  }
+}
